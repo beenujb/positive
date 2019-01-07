@@ -8,4 +8,4 @@ def validateString(s):
             number_flag = True
     return letter_flag and number_flag
 print validateString('Helloword')
-print validateString('some string')
+print validateString('123')
