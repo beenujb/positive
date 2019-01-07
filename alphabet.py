@@ -7,5 +7,5 @@ def validateString(s):
         if i.isdigit():
             number_flag = True
     return letter_flag and number_flag
-print validateString('Helloword')
-print validateString('123')
+print validateString('Helloword.123')
+
